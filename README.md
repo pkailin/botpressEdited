@@ -8,6 +8,7 @@
 The custom component creates a new interface for the composer and overwrites the existing composer 
 1. In modules/channel-web/assets/examples/embedded-webchat.html, uncomment line 68 to 90 and comment out line 91 to 93. 
 2. In packages/bp/dist/data/global/bot.config.json, add in:
+
 "modules": [
   ...
   {
@@ -21,6 +22,7 @@ The custom component creates a new interface for the composer and overwrites the
 2. yarn
 3. yarn build
 4. yarn start
+
 if any code changes made to any modules, cd to module itself and do yarn && yarn build, then cd back to botpress-master and yarn start. 
 
 ## Files that changed 
